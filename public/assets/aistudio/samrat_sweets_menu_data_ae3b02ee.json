@@ -1,0 +1,941 @@
+{
+  "restaurant": {
+    "name": "Samrat Sweets",
+    "address": "Power Supply Colony, IMT Manesar, Gurugram, Haryana 122052",
+    "phone": "+91 85868 89025",
+    "google_maps": "https://maps.app.goo.gl/rXZGG3xjCm3YVT4s9?g_st=ac"
+  },
+  "currency": "INR",
+  "qr_strategy": "single_qr_for_all_tables",
+  "ordering_mode": "customer_views_menu_and_orders_verbally_with_waiter",
+  "categories": [
+    {
+      "name": "Soups",
+      "items": [
+        {
+          "name": "Tomato Soup",
+          "price": 120
+        },
+        {
+          "name": "Hot & Sour Soup",
+          "price": 130
+        },
+        {
+          "name": "Manchow Soup",
+          "price": 130
+        },
+        {
+          "name": "Sweet Corn Soup",
+          "price": 130
+        }
+      ]
+    },
+    {
+      "name": "Pizza",
+      "items": [
+        {
+          "name": "Cheese Plain Pizza",
+          "half": 120,
+          "full": 180
+        },
+        {
+          "name": "Sweet Corn Pizza",
+          "half": 145,
+          "full": 205
+        },
+        {
+          "name": "Mushroom Pizza",
+          "half": 145,
+          "full": 205
+        },
+        {
+          "name": "Capsicum Tomato Pizza",
+          "half": 145,
+          "full": 205
+        },
+        {
+          "name": "Onion Capsicum Pizza",
+          "half": 145,
+          "full": 205
+        },
+        {
+          "name": "Chilli Paneer Pizza",
+          "half": 160,
+          "full": 220
+        },
+        {
+          "name": "Samrat Special Pizza",
+          "half": 165,
+          "full": 240
+        }
+      ]
+    },
+    {
+      "name": "Starters",
+      "items": [
+        {
+          "name": "Tandoori Chap (Soya)",
+          "price": 215
+        },
+        {
+          "name": "Malai Soya Chap",
+          "price": 235
+        },
+        {
+          "name": "Paneer Malai Tikka",
+          "price": 255
+        },
+        {
+          "name": "Paneer Tikka",
+          "price": 245
+        },
+        {
+          "name": "Mushroom Tikka",
+          "price": 245
+        },
+        {
+          "name": "Tandoori Gobhi",
+          "price": 195
+        },
+        {
+          "name": "Veg Seek Kebab",
+          "price": 205
+        }
+      ]
+    },
+    {
+      "name": "Chaat",
+      "items": [
+        {
+          "name": "Dahi Bhalla",
+          "price": 120
+        },
+        {
+          "name": "Papdi Chaat",
+          "price": 120
+        },
+        {
+          "name": "Bhalla Papdi",
+          "price": 120
+        },
+        {
+          "name": "Raj Kachori",
+          "price": 130
+        },
+        {
+          "name": "Stuffed Gol-Gappa (5 Pcs.)",
+          "price": 110
+        },
+        {
+          "name": "Gol-Gappa (5 Pcs.)",
+          "price": 45
+        },
+        {
+          "name": "Aloo Tikki (Cholle / Chutney)",
+          "price": 110
+        }
+      ]
+    },
+    {
+      "name": "Indian Specialities",
+      "items": [
+        {
+          "name": "Yellow Dal Tadka",
+          "half": 135,
+          "full": 240
+        },
+        {
+          "name": "Jeera Aloo",
+          "half": 135,
+          "full": 240
+        },
+        {
+          "name": "Gobhi Masala",
+          "half": 155,
+          "full": 260
+        },
+        {
+          "name": "Chana Masala",
+          "half": 155,
+          "full": 260
+        },
+        {
+          "name": "Rajma",
+          "half": 155,
+          "full": 260
+        },
+        {
+          "name": "Mix Veg",
+          "half": 155,
+          "full": 260
+        },
+        {
+          "name": "Dal Makhni",
+          "half": 185,
+          "full": 290
+        },
+        {
+          "name": "Shahi Paneer",
+          "half": 185,
+          "full": 290
+        },
+        {
+          "name": "Kadhai Paneer",
+          "half": 195,
+          "full": 310
+        },
+        {
+          "name": "Matar Paneer",
+          "half": 195,
+          "full": 310
+        },
+        {
+          "name": "Paneer Butter Masala",
+          "half": 195,
+          "full": 310
+        },
+        {
+          "name": "Paneer Bhurji",
+          "half": 195,
+          "full": 310
+        },
+        {
+          "name": "Paneer Do Pyaaza",
+          "half": 195,
+          "full": 310
+        },
+        {
+          "name": "Palak Paneer",
+          "half": 195,
+          "full": 310
+        },
+        {
+          "name": "Paneer Makhni",
+          "half": 205,
+          "full": 330
+        },
+        {
+          "name": "Paneer Lahori",
+          "half": 205,
+          "full": 330
+        },
+        {
+          "name": "Paneer Tikka Lababdar",
+          "half": 205,
+          "full": 330
+        },
+        {
+          "name": "Paneer Nazrana",
+          "half": 205,
+          "full": 330
+        },
+        {
+          "name": "Paneer Mushroom Masala",
+          "half": 205,
+          "full": 330
+        },
+        {
+          "name": "Paneer Punjabi Masala",
+          "half": 205,
+          "full": 330
+        },
+        {
+          "name": "Soya Masala Chap",
+          "half": 185,
+          "full": 290
+        },
+        {
+          "name": "Matar Mushroom",
+          "half": 185,
+          "full": 290
+        },
+        {
+          "name": "Malai Kofta",
+          "half": 205,
+          "full": 330
+        },
+        {
+          "name": "Sarso Da Saag (Seasonal)",
+          "half": 185,
+          "full": 300
+        }
+      ]
+    },
+    {
+      "name": "Traditional Indian",
+      "items": [
+        {
+          "name": "Poori Sabji with Sweet",
+          "price": 95
+        },
+        {
+          "name": "Cholle Bhature",
+          "price": 135
+        },
+        {
+          "name": "Cholle Kulche",
+          "price": 110
+        },
+        {
+          "name": "Pav Bhaji",
+          "price": 135
+        },
+        {
+          "name": "Extra Poori (Single)",
+          "price": 25
+        },
+        {
+          "name": "Extra Sabji",
+          "price": 35
+        },
+        {
+          "name": "Extra Pav (Single)",
+          "price": 40
+        },
+        {
+          "name": "Extra Bhaji & Salad",
+          "price": 60
+        },
+        {
+          "name": "Extra Cholle",
+          "price": 45
+        },
+        {
+          "name": "Extra Bhature",
+          "price": 45
+        },
+        {
+          "name": "Extra Kulche",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "name": "Chinese",
+      "items": [
+        {
+          "name": "Veg. Chowmein",
+          "half": 100,
+          "full": 170
+        },
+        {
+          "name": "Singapore Noodles",
+          "price": 200
+        },
+        {
+          "name": "Chilli Garlic Noodles",
+          "price": 190
+        },
+        {
+          "name": "Hakka Noodles",
+          "price": 200
+        },
+        {
+          "name": "Veg. Manchurian (Dry / Gravy)",
+          "price": 200
+        },
+        {
+          "name": "Chilli Paneer (Dry / Gravy)",
+          "price": 220
+        },
+        {
+          "name": "Chilli Potato",
+          "price": 180
+        },
+        {
+          "name": "Honey Chilli Potato",
+          "price": 190
+        },
+        {
+          "name": "Veg. Fried Rice",
+          "price": 200
+        },
+        {
+          "name": "Veg. Spring Roll",
+          "price": 170
+        },
+        {
+          "name": "Samrat Special Chowmein",
+          "price": 220
+        },
+        {
+          "name": "Chilli Mushroom",
+          "price": 220
+        },
+        {
+          "name": "Chilli Chaap",
+          "price": 220
+        },
+        {
+          "name": "Chilli Gobhi Fry",
+          "price": 210
+        },
+        {
+          "name": "Chilli Crispy Vegetable",
+          "price": 200
+        },
+        {
+          "name": "Chinese Platter",
+          "price": 310
+        }
+      ]
+    },
+    {
+      "name": "Continental & Italian",
+      "items": [
+        {
+          "name": "Allo Tikki Burger",
+          "price": 45
+        },
+        {
+          "name": "Veg. Burger",
+          "price": 55
+        },
+        {
+          "name": "Cheese Burger",
+          "price": 70
+        },
+        {
+          "name": "Paneer Burger",
+          "price": 70
+        },
+        {
+          "name": "Veg. Wrap",
+          "price": 75
+        },
+        {
+          "name": "Paneer Wrap",
+          "price": 85
+        },
+        {
+          "name": "Veg. Sandwich",
+          "price": 35
+        },
+        {
+          "name": "Veg. Double Sandwich",
+          "price": 30
+        },
+        {
+          "name": "Italian Grilled Sandwich",
+          "price": 130
+        },
+        {
+          "name": "Mexican Grilled Sandwich",
+          "price": 130
+        },
+        {
+          "name": "French Fries",
+          "price": 95
+        },
+        {
+          "name": "Loaded French Fries",
+          "price": 140
+        }
+      ]
+    },
+    {
+      "name": "Pasta",
+      "items": [
+        {
+          "name": "Red Sauce Pasta",
+          "price": 180
+        },
+        {
+          "name": "White Sauce Pasta",
+          "price": 180
+        },
+        {
+          "name": "Mix Sauce Pasta",
+          "price": 180
+        }
+      ]
+    },
+    {
+      "name": "South Indian",
+      "items": [
+        {
+          "name": "Idli Sambar",
+          "price": 125
+        },
+        {
+          "name": "Sambar Vada",
+          "price": 125
+        },
+        {
+          "name": "Plain Dosa",
+          "price": 155
+        },
+        {
+          "name": "Masala Dosa",
+          "price": 180
+        },
+        {
+          "name": "Butter Masala Dosa",
+          "price": 190
+        },
+        {
+          "name": "Onion Masala Dosa",
+          "price": 190
+        },
+        {
+          "name": "Paneer Dosa",
+          "price": 200
+        },
+        {
+          "name": "Paneer Butter Masala Dosa",
+          "price": 210
+        },
+        {
+          "name": "Rawa Dosa",
+          "price": 180
+        },
+        {
+          "name": "Rawa Masala Dosa",
+          "price": 195
+        },
+        {
+          "name": "Rawa Paneer Dosa",
+          "price": 230
+        },
+        {
+          "name": "Rawa Onion Masala Dosa",
+          "price": 220
+        },
+        {
+          "name": "Onion / Tomato Uttapam",
+          "price": 180
+        },
+        {
+          "name": "Mix Uttapam",
+          "price": 190
+        },
+        {
+          "name": "Paneer Uttapam",
+          "price": 220
+        },
+        {
+          "name": "Samrat Special Dosa",
+          "price": 240
+        },
+        {
+          "name": "South Indian Platter",
+          "price": 300
+        },
+        {
+          "name": "Extra Idli / Vada",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "name": "Snacks – All Day",
+      "items": [
+        {
+          "name": "Samosa (1 Pc.)",
+          "price": 18
+        },
+        {
+          "name": "Samosa Cholle (1 Pc.)",
+          "price": 50
+        },
+        {
+          "name": "Samosa Cholle (2 Pcs.)",
+          "price": 70
+        },
+        {
+          "name": "Dal Kachori (1 Pc.)",
+          "price": 24
+        },
+        {
+          "name": "Onion Kachori (1 Pc.)",
+          "price": 32
+        },
+        {
+          "name": "Kachori Cholle",
+          "price": 85
+        },
+        {
+          "name": "Kachori With Sabji",
+          "price": 85
+        },
+        {
+          "name": "Paneer Bread Pakora (1 Pc.)",
+          "price": 32
+        },
+        {
+          "name": "Paneer Pakora (1 Pc.)",
+          "price": 32
+        },
+        {
+          "name": "Veg Patty (1 Pc.)",
+          "price": 30
+        },
+        {
+          "name": "Paneer Patty",
+          "price": 35
+        },
+        {
+          "name": "Paneer Kulcha",
+          "price": 55
+        }
+      ]
+    },
+    {
+      "name": "Tandoori & Breads",
+      "items": [
+        {
+          "name": "Stuffed Naan / Parantha",
+          "price": 95
+        },
+        {
+          "name": "Paneer Naan",
+          "price": 100
+        },
+        {
+          "name": "Butter Naan",
+          "price": 75
+        },
+        {
+          "name": "Garlic Naan",
+          "price": 80
+        },
+        {
+          "name": "Plain Naan",
+          "price": 60
+        },
+        {
+          "name": "Laccha Parantha",
+          "price": 65
+        },
+        {
+          "name": "Aloo Parantha",
+          "price": 85
+        },
+        {
+          "name": "Paneer Parantha",
+          "price": 95
+        },
+        {
+          "name": "Onion Parantha",
+          "price": 85
+        },
+        {
+          "name": "Pudina Parantha",
+          "price": 65
+        },
+        {
+          "name": "Missi Roti",
+          "price": 65
+        },
+        {
+          "name": "Makke Di Roti (Seasonal)",
+          "price": 65
+        },
+        {
+          "name": "Butter Roti",
+          "price": 30
+        },
+        {
+          "name": "Plain Roti",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "name": "Rice",
+      "items": [
+        {
+          "name": "Plain Rice",
+          "price": 155
+        },
+        {
+          "name": "Jeera Rice",
+          "price": 165
+        },
+        {
+          "name": "Matar Pulao",
+          "price": 185
+        },
+        {
+          "name": "Veg. Pulao",
+          "price": 195
+        },
+        {
+          "name": "Veg. Biryani with Raita",
+          "price": 260
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "name": "Rajma Rice",
+          "price": 165
+        },
+        {
+          "name": "Cholle Rice",
+          "price": 165
+        },
+        {
+          "name": "Dal Tadka with Rice",
+          "price": 165
+        },
+        {
+          "name": "Dal Makhni with Rice",
+          "price": 185
+        },
+        {
+          "name": "Aloo Parantha with Raita",
+          "price": 145
+        },
+        {
+          "name": "Onion Parantha with Raita",
+          "price": 145
+        },
+        {
+          "name": "Dal Makhni with 1 Butter Naan / Laccha Parantha",
+          "price": 185
+        },
+        {
+          "name": "Shahi Paneer with 1 Butter Naan / Laccha Parantha",
+          "price": 185
+        },
+        {
+          "name": "Veg. Manchurian with Fried Rice / Noodles",
+          "price": 205
+        },
+        {
+          "name": "Chilli Paneer with Fried Rice / Noodles",
+          "price": 215
+        },
+        {
+          "name": "Sarso Da Saag Makke Di Roti (Seasonal)",
+          "price": 280
+        }
+      ]
+    },
+    {
+      "name": "Platters",
+      "notes": "Minimum order time: 15 minutes",
+      "items": [
+        {
+          "name": "Tandoori Platter",
+          "price": 335
+        },
+        {
+          "name": "Chinese Platter",
+          "price": 310
+        },
+        {
+          "name": "South Indian Platter",
+          "price": 300
+        }
+      ]
+    },
+    {
+      "name": "Raita & Salad",
+      "items": [
+        {
+          "name": "Pineapple Raita",
+          "price": 160
+        },
+        {
+          "name": "Boondi Raita",
+          "price": 140
+        },
+        {
+          "name": "Mix Veg. Raita",
+          "price": 140
+        },
+        {
+          "name": "Green Salad",
+          "price": 120
+        },
+        {
+          "name": "Roasted Papad",
+          "price": 35
+        },
+        {
+          "name": "Masala Papad",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Rasgulla (1 Pc.)",
+          "price": 19.05
+        },
+        {
+          "name": "Gulab Jamun (1 Pc.) Desi Ghee",
+          "price": 32.38
+        },
+        {
+          "name": "Rajbhog (1 Pc.)",
+          "price": 33.33
+        },
+        {
+          "name": "Rasmalai (1 Pc.)",
+          "price": 47.62
+        },
+        {
+          "name": "Rabri (100gm)",
+          "price": 61.9
+        },
+        {
+          "name": "Rabri Rasmalai",
+          "price": 57.14
+        },
+        {
+          "name": "Jalebi (100gm)",
+          "price": 44
+        },
+        {
+          "name": "Gajar Halwa (100gm) Seasonal",
+          "price": 64
+        },
+        {
+          "name": "Moong Dal Halwa (100gm) Seasonal",
+          "price": 64
+        },
+        {
+          "name": "Tilla Kulfi",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Tea",
+          "price": 45
+        },
+        {
+          "name": "Hot Coffee",
+          "price": 70
+        },
+        {
+          "name": "Fresh Lime Soda (Sweet / Salt)",
+          "price": 75
+        },
+        {
+          "name": "Lassi (Sweet / Salt)",
+          "price": 80
+        },
+        {
+          "name": "Badam Milk",
+          "price": 80
+        },
+        {
+          "name": "Lemon Ice Tea",
+          "price": 90
+        },
+        {
+          "name": "Virgin Mojito",
+          "price": 90
+        }
+      ]
+    },
+    {
+      "name": "Ice Cream & Shakes",
+      "items": [
+        {
+          "name": "Cold Coffee",
+          "price": 100
+        },
+        {
+          "name": "Butter Scotch Shake",
+          "price": 100
+        },
+        {
+          "name": "Oreo Shake",
+          "price": 110
+        },
+        {
+          "name": "Kitkat Shake",
+          "price": 110
+        },
+        {
+          "name": "Mango Shake",
+          "price": 100
+        },
+        {
+          "name": "Strawberry Shake",
+          "price": 100
+        },
+        {
+          "name": "Blueberry Shake",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "name": "Ice Cream & Sundae",
+      "items": [
+        {
+          "name": "Vanilla",
+          "price": 85
+        },
+        {
+          "name": "Strawberry",
+          "price": 85
+        },
+        {
+          "name": "Butter Scotch",
+          "price": 95
+        },
+        {
+          "name": "Chocolate",
+          "price": 95
+        },
+        {
+          "name": "Kaju Kishmish",
+          "price": 100
+        },
+        {
+          "name": "Mango",
+          "price": 95
+        },
+        {
+          "name": "Tutti Fruity",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "name": "Special Thalis",
+      "items": [
+        {
+          "name": "Samrat Eco Thali",
+          "price": 240,
+          "description": "Dal Tadka, Mix Veg, Rice, Raita, 2 Butter Roti, Salad, Pickle, Papad"
+        },
+        {
+          "name": "Samrat SPL Thali",
+          "price": 310,
+          "description": "Shahi Paneer, Dal Makhani, Mix Veg, 1 Mini Naan, 1 Mini Parantha, Rice, Raita, Salad, Pickle, Papad, Sweet"
+        }
+      ]
+    }
+  ],
+  "phase_1_features": [
+    "restaurant_homepage",
+    "digital_menu",
+    "restaurant_details",
+    "gallery",
+    "google_maps_directions",
+    "single_qr_for_all_tables"
+  ],
+  "excluded_in_phase_1": [
+    "cart",
+    "online_ordering",
+    "checkout",
+    "online_payment",
+    "customer_accounts",
+    "owner_dashboard"
+  ]
+}
